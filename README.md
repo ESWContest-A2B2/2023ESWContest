@@ -1,4 +1,4 @@
-# Team Introduction
+# Team A2B2
 
 ## Team Members
 
@@ -8,8 +8,6 @@
 | 윤지민 | ske0910@konkuk.ac.kr | H/W개발 - RC카 제어용 Arduino Uno 개발<br/>S/W개발 - 속도 제어 알고리즘 아이디어 및 구현 |
 | 이소은 | sy3048@konkuk.ac.kr | S/W개발 - RasberryPi 동작 개발<br/>WEB개발 - Flask 이용 지문인식 데이터 Web에 업로드<br/>H/W개발 - RC카 제어용 Arduino Uno 개발 |
 | 차서연 | chasy0826@konkuk.ac.kr | H/W개발 – RC카 제어용 Arduino Uno 개발 |
-
-
 
 ## GitHub Tree
 
@@ -30,3 +28,8 @@
 │      file.py
 │                 
 ```
+
+## TODOS
+
+- 용의자 검거 시 MariaDB의 지문과 대조하는 과정 추가
+- RasberryPi/raspi01.py 코드 최적화
