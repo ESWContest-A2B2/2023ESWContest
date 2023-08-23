@@ -1,6 +1,6 @@
 # Team Introduction
 
-## 팀원
+## Team Members
 
 | 이름   | 메일               | 역할 |
 | ------ | ------------------ | ------ |
@@ -11,7 +11,7 @@
 
 
 
-## github Tree
+## GitHub Tree
 
 ```bash
 │  A2B2.png
