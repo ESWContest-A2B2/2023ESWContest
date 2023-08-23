@@ -24,5 +24,5 @@
 │      test
 │          
 ├─RasberryPi
-|      raspi01.pi              
+│      raspi01.pi              
 ```
