@@ -29,7 +29,7 @@
 │                 
 ```
 
-## TODOS
+## Todos
 
 - 용의자 검거 시 MariaDB의 지문과 대조하는 과정 추가
 - RasberryPi/raspi01.py 코드 최적화
