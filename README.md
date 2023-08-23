@@ -25,5 +25,4 @@
 │          
 ├─RasberryPi
 │      raspi01.pi              
-│
 ```
