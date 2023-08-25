@@ -24,7 +24,7 @@
  ┗ 📜README.md
 
 ## System Configuration
-![](./imgs/dev_environment.png)
+![](./imgs/system_config.png)
 
 ## Functional Specification
 ![](./imgs/functional_spec.png)
