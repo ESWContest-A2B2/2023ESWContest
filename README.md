@@ -1,7 +1,27 @@
 # Team A2B2
 
-## "System Name"
+## System Name
 <img src="https://github.com/ESWContest-A2B2/2023ESWContest_free_1017/assets/141810581/61a8f374-50a8-4c9d-9653-3fa86bc17cac" alt=""/>
+
+## System Functionality
+Our system has been designed to prevent driver escapes in the event of a hit-and-run accident. If an impact occurs while the vehicle is in motion, our system progressively reduces the car's top speed. Additionally, if the driver does not undergo fingerprint recognition within a certain time, the car is programmed to come to a complete stop. Through this system, we anticipate a society where hit-and-run accidents are eradicated.
+
+## System Configuration
+![](./imgs/system_config.png)
+
+## Functional Specification
+![](./imgs/func_spec.png)
+
+## Hardware Diagram
+![](./imgs/hardware_diagram.png)
+
+## Competitive Differentiation of Development
+
+### Safety-Conscious System
+In the case of the existing hit-and-run prevention system, the car stopped immediately when an impact was detected. However, through continuous meetings, our team thought that sudden stops on the road could interfere with traffic flow and cause accidents. To solve this problem, we designed a brand-new system to gradually lower the maximum speed of the car and stop if fingerprint recognition is not performed for a certain period of time.
+
+### Innovatary Method Extracting Driver's Information
+The hit-and-run prevention system developed so far has used methods such as dropping license plates on the roadway or dropping the car's RFID chip when shock is detected. However, leaving objects on the roadway can affect the safety of other drivers, and there is a risk of being lost depending on weather conditions. Accordingly, our system allows the driver's information, collision time, and collision place to be extracted through fingerprint recognition.
 
 ## Team Introduction
 We are a team of four students majoring in Electrical and Electronic Engineering at Konkuk University, Seoul, South Korea. We are interested in the collaborative relationship between embedded software and the industry.
@@ -32,23 +52,6 @@ We are a team of four students majoring in Electrical and Electronic Engineering
  ┃ ┗ 🖼️system_config.png <br/>
  ┣ 🖼️A2B2.png <br/> 
  ┗ 📜README.md
-
-## System Configuration
-![](./imgs/system_config.png)
-
-## Functional Specification
-![](./imgs/func_spec.png)
-
-## Hardware Diagram
-![](./imgs/hardware_diagram.png)
-
-## Competitive Differentiation of Development
-
-### Safety-Conscious System
-In the case of the existing hit-and-run prevention system, the car stopped immediately when an impact was detected. However, through continuous meetings, our team thought that sudden stops on the road could interfere with traffic flow and cause accidents. To solve this problem, we designed a brand-new system to gradually lower the maximum speed of the car and stop if fingerprint recognition is not performed for a certain period of time.
-
-### Innovatary Method Extracting Driver's Information
-The hit-and-run prevention system developed so far has used methods such as dropping license plates on the roadway or dropping the car's RFID chip when shock is detected. However, leaving objects on the roadway can affect the safety of other drivers, and there is a risk of being lost depending on weather conditions. Accordingly, our system allows the driver's information, collision time, and collision place to be extracted through fingerprint recognition.
 
 ## Todos
 
