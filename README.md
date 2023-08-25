@@ -1,5 +1,8 @@
 # Team A2B2
 
+## "System Name"
+<img src="https://github.com/ESWContest-A2B2/2023ESWContest_free_1017/assets/141810581/61a8f374-50a8-4c9d-9653-3fa86bc17cac" width="70px;" alt=""/>
+
 ## Team Introduction
 We are a team of four students majoring in Electrical and Electronic Engineering at Konkuk University, Seoul, South Korea. We are interested in the collaborative relationship between embedded software and the industry.
 
