@@ -32,7 +32,7 @@
 ## Functional Specification
 ![](./imgs/func_spec.png)
 
-## Differentiation of Development
+## Competitive Differentiation of Development
 
 ### Safety-Conscious System
 In the case of the existing hit-and-run prevention system, the car stopped immediately when an impact was detected. However, through continuous meetings, our team thought that sudden stops on the road could interfere with traffic flow and cause accidents. To solve this problem, we designed a brand-new system to gradually lower the maximum speed of the car and stop if fingerprint recognition is not performed for a certain period of time.
