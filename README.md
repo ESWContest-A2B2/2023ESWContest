@@ -22,6 +22,7 @@
  ┃ ┗ 📜test.ino <br/>
  ┣ 📂imgs <br/>
  ┃ ┣ 🖼️func_spec.png <br/>
+ ┃ ┣ 🖼️hardware_diagram.png <br/>
  ┃ ┗ 🖼️system_config.png <br/>
  ┣ 🖼️A2B2.png <br/> 
  ┗ 📜README.md
