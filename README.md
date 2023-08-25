@@ -10,9 +10,9 @@
 | 차서연 | chasy0826@konkuk.ac.kr | H/W개발 – RC카 제어용 Arduino Uno 개발 |
 
 ## Team Members
-| Profile | Role | Part | Tech Stack |
-| ------- | ---- | ---- | ---------- |
-| <div align="center"><img src="![](./imgs/지민영.jpeg)" width="70px;" alt=""/><br/><sub><b>지민영</b><sub></a></div> | 팀장 | PM, Server, Service, HW, Network | NodeJS, ReactJS, Arduino, MongoDB, AWS EC2, Docker |
+| Profile | Mail | Role |
+| ------- | ---- | ---- |
+| <div align="center"><img src="![](./imgs/지민영.jpeg)" width="70px;" alt=""/><br/><sub><b>지민영</b><sub></a></div> | 기획 및 총괄<br/>S/W개발 - 충격 감지 후 RasberryPi 동작 개발<br/>H/W개발 - 충격 감지용 Arduino Mega 개발 |
 | <div align="center"><img src="https://avatars.githubusercontent.com/seiyoon" width="70px;" alt=""/><br/><sub><b>황세윤</b><sub></a></div> | 팀원 | UI | ReactJS |
 | <div align="center"><img src="https://avatars.githubusercontent.com/u/100904133?v=4" width="70px;" alt=""/><br/><sub><b>유다영</b></sub></a></div> | 팀원 | Server, DB | NodeJS, MongoDB |
 | <div align="center"><img src="https://avatars.githubusercontent.com/u/57091983?v=4" width="70px;" alt=""/><br/><sub><b>이준혁</b></sub></a></div> | 팀원 | Service, HW, CV | Arduino, NodeJS, Python, Media Pipe |
