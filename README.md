@@ -21,7 +21,7 @@
  ┣ 📂Web <br/>
  ┃ ┗ 📜test.ino <br/>
  ┣ 📂imgs <br/>
- ┃ ┣ 🖼️functional_spec.png <br/>
+ ┃ ┣ 🖼️func_spec.png <br/>
  ┃ ┗ 🖼️system_config.png <br/>
  ┣ 🖼️A2B2.png <br/> 
  ┗ 📜README.md
