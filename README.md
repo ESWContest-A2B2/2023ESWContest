@@ -12,7 +12,7 @@
 ## Team Members
 | Profile | Role | Part | Tech Stack |
 | ------- | ---- | ---- | ---------- |
-| <div align="center"><a href="adamminyoung@konkuk.ac.kr"><img src="https://avatars.githubusercontent.com/u/77202633?v=4" width="70px;" alt=""/><br/><sub><b>윤민우</b><sub></a></div> | 팀장 | PM, Server, Service, HW, Network | NodeJS, ReactJS, Arduino, MongoDB, AWS EC2, Docker |
+| <div align="center"><img src="![](./imgs/지민영.jpeg)" width="70px;" alt=""/><br/><sub><b>지민영</b><sub></a></div> | 팀장 | PM, Server, Service, HW, Network | NodeJS, ReactJS, Arduino, MongoDB, AWS EC2, Docker |
 | <div align="center"><img src="https://avatars.githubusercontent.com/seiyoon" width="70px;" alt=""/><br/><sub><b>황세윤</b><sub></a></div> | 팀원 | UI | ReactJS |
 | <div align="center"><img src="https://avatars.githubusercontent.com/u/100904133?v=4" width="70px;" alt=""/><br/><sub><b>유다영</b></sub></a></div> | 팀원 | Server, DB | NodeJS, MongoDB |
 | <div align="center"><img src="https://avatars.githubusercontent.com/u/57091983?v=4" width="70px;" alt=""/><br/><sub><b>이준혁</b></sub></a></div> | 팀원 | Service, HW, CV | Arduino, NodeJS, Python, Media Pipe |
