@@ -30,7 +30,7 @@
 ![](./imgs/system_config.png)
 
 ## Functional Specification
-![](./imgs/functional_spec.png)
+![](./imgs/func_spec.png)
 
 ## 개발결과물의 차별성
 
