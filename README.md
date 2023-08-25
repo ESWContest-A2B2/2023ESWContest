@@ -23,6 +23,9 @@
  ┣ 🖼️A2B2.png <br/> 
  ┗ 📜README.md
 
+## System Configuration
+![](./imgs/dev_environment.png)
+
 ## 개발결과물의 차별성
 
 ### 안전을 고려한 시스템
