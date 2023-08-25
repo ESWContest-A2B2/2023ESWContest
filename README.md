@@ -2,7 +2,7 @@
 
 ## Team Members
 
-| Profile | Mail | Role |
+| Profile | Contact | Role |
 | ------- | ---- | ---- |
 | <div align="center"><img src="https://github.com/ESWContest-A2B2/2023ESWContest/assets/141810581/dd8736d0-a3ea-4dae-8b10-202b5c2a2855" width="70px;" alt=""/><br/><sub><b>지민영</b><sub></a></div> | <div align="center">adamminyoung@konkuk.ac.kr | Planning and General Management<br/>S/W Development - Development of RasberryPi Behavior after Shock Detection<br/>H/W Development - Development of Arduino Mega for Shock Detection |
 | <div align="center"><img src="https://github.com/ESWContest-A2B2/2023ESWContest/assets/141810581/da63ace4-d7a5-4b2c-a0b3-79af0bdbb1c0" width="70px;" alt=""/><br/><sub><b>윤지민</b><sub></a></div> | <div align="center">ske0910@konkuk.ac.kr | S/W Development - Speed Control Idea Devising and Implementation<br/>H/W Development - Development of Arduino Uno for RC Car Control |
