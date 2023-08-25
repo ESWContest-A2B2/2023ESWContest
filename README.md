@@ -26,6 +26,9 @@
 ## System Configuration
 ![](./imgs/dev_environment.png)
 
+## Functional Specification
+![](./imgs/functional_spec.png)
+
 ## 개발결과물의 차별성
 
 ### 안전을 고려한 시스템
