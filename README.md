@@ -47,4 +47,4 @@ The hit-and-run prevention system developed so far has used methods such as drop
 ## Todos
 
 - Add comparing process with MariaDB's fingerprints of suspect
-- RasberryPi/raspi01.py code optimization
+- Optimize RasberryPi/raspi01.py
