@@ -32,6 +32,9 @@
 ## Functional Specification
 ![](./imgs/func_spec.png)
 
+## Hardware Diagram
+![](./imgs/hardware_diagram.png)
+
 ## Competitive Differentiation of Development
 
 ### Safety-Conscious System
