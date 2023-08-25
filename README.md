@@ -15,7 +15,7 @@
  ┣ 📂ArduinoMega <br/>
  ┃ ┗ 📜test.ino <br/>
  ┣ 📂ArduinoUno <br/>
- ┃ ┗ 📜test.ino <br/>
+ ┃ ┗ 📜rc.ino <br/>
  ┣ 📂RasberryPi <br/>
  ┃ ┗ 📜raspi01.py <br/>
  ┣ 📂Web <br/>
