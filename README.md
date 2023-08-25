@@ -1,5 +1,8 @@
 # Team A2B2
 
+## Team Introduction
+We are a team of four students majoring in Electrical and Electronic Engineering at Konkuk University, Seoul, South Korea. We are interested in the collaborative relationship between embedded software and the industry.
+
 ## Team Members
 
 | Profile | Contact | Role |
