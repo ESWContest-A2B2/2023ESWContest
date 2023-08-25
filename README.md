@@ -21,8 +21,7 @@
  ┃ ┗ 📜raspi01.py <br/>
  ┣ 📂Web <br/>
  ┃ ┗ 📜test.ino <br/>
- ┣ 🖼️A2B2.png
- 
+ ┣ 🖼️A2B2.png <br/> 
  ┗ 📜README.md
 
 ## Todos
