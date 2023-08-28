@@ -5,8 +5,10 @@
 #include <Servo.h> //서보모터 사용을 위한 라이브러리 선언
 #include <SoftwareSerial.h> //블루투스 모듈 사용을 위해 라이브러리 선언
 
-LiquidCrystal_I2C lcd(0x27, 16, 2); //lcd 객체 선언
+// I2C LCD 초기화
+LiquidCrystal_I2C lcd(0x27, 16, 2); //주소, 열 수, 행 수
 
+// 변수 및 객체 선언
 String ms = "";
 int a = 2;
 int pa = 90;
@@ -24,62 +26,60 @@ SoftwareSerial mySerial(8, 9); //블루투스 통신을 위한 핀
 
 void setup()
 {
-  lcd.begin();
-  lcd.backlight();
-  Serial.begin(9600);
-  mySerial.begin(9600);
+  lcd.begin(); //LCD 초기화
+  lcd.backlight(); //LCD 배경화면 활성화
+  Serial.begin(9600); // 시리얼 통신 초기화
+  mySerial.begin(9600); // 블루투스 시리얼 통신 초기화
   myServo.attach(3); //서보모터 핀 3번에 연결
   Scheduler.startLoop(loop1); //두 번째 루프 시작
   pinMode(6, OUTPUT); //핀 6번 출력
   pinMode(11, OUTPUT); //핀 11번 출력
 }
 
+unsigned long previousMillis = 0; // 이전 시간 저장 변수
+const unsigned long delayInterval = 1000; // 1000ms마다 반복
+
 void loop()
 {
-  if (Serial.available()) 
-  {
-    inChar = Serial.read(); //시리얼 입력을 통해 문자를 받음
-  }
-  if (inChar == 'G') // 시리얼 통신을 통해 G를 받음
-  {
-    mutex.wait(); //세마포어 획득
-    {
-      if(i<600) // i가 0부터 600까지
-      {
-        if(i%10==0) // 60번 감소
-        {
-          slow=slow-3; // 최고 속도 1초에 3씩 감소
-        }
-        delay(100);
-        } //sp = 70
-      
-      if(600<=i and i<1800) //i가 600부터 1799까지
-      {
-        delay(100);
-        } //2분동안 최고 속도 70
-      
-      if(1800<=i and i<1900) //i가 1800부터 1899까지
-      {
-        if(i%10==0) // 10번 감소
-        {
-          slow=slow-7; //최고 속도 1초에 7씩 감소
-        }
-        delay(100);
-        } //sp = 0  
+  unsigned long currentMillis = millis();
 
-      sp=min(sp, slow); //스레드가 실행될 때마다 sp값을 sp와 slow중 작은 값으로 변경
-      }
-      mutex.signal();// 세마포어를 해제
-      i += 1; //i의 값을 증가시켜 if문 범위 변경
+    if (Serial.available())
+    {
+      inChar = Serial.read(); //시리얼 입력 확인
     }
-      
-    if (inChar == 'S') //시리얼 통신을 통해 S를 받음
+    if (inChar == 'G') //'G'가 입력됐을 때
+    {
+      mutex.wait(); //세마포어 획득
       {
-        mutex.wait(); //세마포어 획득
-        slow = 250; //최고 속도를 250으로 초기화
-        i=0; //i값을 0으로 초기화
-        mutex.signal(); //세마포어 해제
+        if (currentMillis - previousMillis >= delayInterval){ //1초에 한 번 씩
+        previousMillis = currentMillis; // 시간 업데이트
+        if (i < 60) // 60번 반복
+        {
+            slow = slow - 2; // 2씩 감소
+        } // slow 130
+        else if (i >= 60 && i < 180) //120번 반복
+        {
+          // Do nothing
+        }
+        else if (i >= 180 && i < 190) //10번 반복
+        {
+            slow = slow - 13; //13씩 감소
+        } // slow 0
+        sp = min(sp, slow); //스레드가 실행될 때마다 sp값을 sp와 slow 중 작은 값으로 변경
+        i += 1; //i 값을 증가시켜 if문의 범위 변경
       }
+      }
+    
+      mutex.signal(); // 세마포어를 해제
+    }
+    
+    else if (inChar == 'S') //'S'가 입력됐을 때
+    {
+      mutex.wait(); //세마포어 획득
+      slow = 250; //최고 속도를 250으로 초기화
+      i = 0; //i값을 0으로 초기화
+      mutex.signal(); //세마포어 해제
+    } 
 }
 
 void loop1()
@@ -88,12 +88,12 @@ void loop1()
     {
       if (mySerial.available()) {
       String ms = mySerial.readStringUntil('c');
-      int a = ms.toInt();
+      int a = ms.toInt(); //문자열을 정수로 변환
 
       if (a == 4) {
-        sp = max(min(sp, slow) - 10, 0); //a가 4일때 sp값을 현재속도와 최고속도 중 작은 값에서 10 감소
+        sp = max(min(sp, slow) - 10, 0); //sp값 현재속도와 최고속도 중 작은 값에서 10 감소
       } else if (a == 5) {
-        sp = min(sp + 10, slow); //a가 5일때 sp값을 10 증가
+        sp = min(sp + 10, slow); //sp값 10 증가
         }
 
       if (a < 4) {
@@ -127,17 +127,17 @@ void loop1()
         analogWrite(6, 0); //정지
         analogWrite(11, 0);
         pnum = 0;
-        sp = 0;
+        sp = 0; //sp값 0으로 초기화
       } else if (num == 3) { //후진
         analogWrite(6, 0);
         analogWrite(11, sp);
         pnum = 3;
       }
-      lcd.setCursor(0,0); //첫번째 줄 출력
+      lcd.setCursor(0,0); //LCD 화면 첫 번째 줄 출력
       lcd.print("max :");
       lcd.print(slow);
       lcd.print("   ");
-      lcd.setCursor(0,1); //두번째 줄 출력
+      lcd.setCursor(0,1); //LCD 화면 두 번째 줄 출력
       lcd.print("speed :");
       lcd.print(sp);
       lcd.print("   ");
