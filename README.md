@@ -1,6 +1,6 @@
 # Team A2B2
 
-## HIRU-S
+## HiRu-S
 <div align="right">
 <a href="https://youtube.com/@KonkukUniv?si=vUBxrMwD19dMnkl2"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white"/></a>
 </div>
