@@ -1,6 +1,6 @@
 # Team A2B2
 
-## Hirs-S
+## Hirus-S
 <img src="https://github.com/ESWContest-A2B2/2023ESWContest_free_1017/assets/141810581/61a8f374-50a8-4c9d-9653-3fa86bc17cac" alt=""/>
 
 ## System Functionality
