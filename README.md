@@ -4,7 +4,7 @@
 <div align="right">
 <a href=""><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white"/></a>
 </div>
-<div align="center"><img src="https://github.com/ESWContest-A2B2/2023ESWContest_free_1017/assets/141810581/61a8f374-50a8-4c9d-9653-3fa86bc17cac" width="500px;" alt=""/></div>
+<div align="center"><img src="https://github.com/ESWContest-A2B2/2023ESWContest_free_1017/assets/141810581/61a8f374-50a8-4c9d-9653-3fa86bc17cac" width="700px;" alt=""/></div>
 
 ## System Functionality
 Our system has been designed to prevent driver escapes in the event of a hit-and-run accident. If an impact occurs while the vehicle is in motion, our system gradually reduces the car's max speed for a duration of 1 minute. After max speed has been reduced, the car can continue operating, not exceeding the reduced top speed for 2 minutes. By this algorithm we can ensure that the flow of surrounding traffic is not disrupted and the potential for accidents is minimized. However, if the driver does not undergo fingerprint recognition even after total 3 minutes, the car is programmed to come to a complete stop. Through this system, we anticipate a society where hit-and-run accidents are eradicated.
