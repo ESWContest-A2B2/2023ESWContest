@@ -54,6 +54,7 @@ The hit-and-run prevention system developed so far has used methods such as drop
  ┃ ┣ 📜Data.py <br/>
  ┃ ┗ 📜web_finger.py <br/>
  ┣ 📂imgs <br/>
+ ┃ ┣ 🖼️diff_venn_diagram.png <br/>
  ┃ ┣ 🖼️func_spec.png <br/>
  ┃ ┣ 🖼️hardware_diagram.png <br/>
  ┃ ┗ 🖼️system_config.png <br/>
