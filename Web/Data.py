@@ -8,8 +8,6 @@ def geocoding_reverse(lat_lng_str):
     return address
 #위,경도값을 주소값으로 반환하는 함수
 
-
-
 class Finger:
     def getFinger(self):
         ret = []
@@ -30,6 +28,3 @@ class Finger:
         db.commit()
         db.close()
         return ret #데이터베이스의 데이터를 옮긴 배열을 반환한다.
-
-    
-    
