@@ -33,6 +33,8 @@ In the case of the existing hit-and-run prevention system, the car stopped immed
 
 The hit-and-run prevention system developed so far has used methods such as dropping license plates on the roadway or dropping the car's RFID chip when shock is detected. However, leaving objects on the roadway can affect the safety of other drivers, and there is a risk of being lost depending on weather conditions. Accordingly, our system allows the driver's information, collision time, and collision place to be extracted through fingerprint recognition.
 
+![](./imgs/diff_venn_diagram.png)
+
 ## GitHub Tree
 
 📦2023ESWContest_free_1017 <br/>
