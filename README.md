@@ -55,7 +55,7 @@ The hit-and-run prevention system developed so far has used methods such as drop
  ┃ ┣ 🖼️func_spec.png <br/>
  ┃ ┣ 🖼️hardware_diagram.png <br/>
  ┃ ┗ 🖼️system_config.png <br/>
- ┣ 🖼️A2B2.png <br/> 
+ ┣ 🖼️a2B2.png <br/> 
  ┗ 📜README.md
 
 ## Team Introduction
