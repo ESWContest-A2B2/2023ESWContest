@@ -76,3 +76,4 @@ We are a team of four students majoring in Electrical and Electronic Engineering
 - Add comparing process with MariaDB's fingerprints of suspect
 - Optimize RasberryPi/raspi01.py
 - Precise measurement of impact force using a 3-axis gyro sensor
+- Sensor placement considering shock from multiple directions
