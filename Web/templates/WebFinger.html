@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>x
+table, td{
+	border : 1px solid #32a1ce;
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    
+}
+th{
+    border : 1px solid #32a1ce;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #2884a5;
+    color: white;
+    font-size: 20px;
+    }
+h3{
+    text-align: center;
+    }
+boxa{
+    font-size: 5px;      
+    }
+</style>
+<meta charset="UTF-8">
+<link rel="icon" href="static/image/favicon.ico" type="image/x-icon" sizes="16x16">
+<title>뺑소니방지지문조회시스템</title>
+</head>
+<body>
+    <div style="text-align : center; margin-top: 50px;">
+        <img src="{{ url_for('static', filename='image/a2b2.png') }}" width="60" style="vertical-align: middle;" hspace="10">
+        <span style="font-size:40px; vertical-align: middle;"><b>지문조회시스템</b></span>
+    </div>
+    <h3>건국대학교 A2B2</h3>
+<table>
+	<tr>
+        <th width = 50px>등록 번호<br></th> 
+		<th>사고<br>시간</th>
+		<th>지문 정보</th>
+		<th>위도</th>
+		<th>경도</th>
+        <th>주소</th>
+	</tr>
+		{% for webFinger in webList%}
+		<tr>
+            <td>{{webFinger.no}}</td>
+			<td>{{webFinger.collect_time}}</td>
+			<td><boxa>{{webFinger.finger_char}}</boxa></td>
+			<td>{{webFinger.latitude}}</td>
+			<td>{{webFinger.longitude}}</td>
+            <td>{{webFinger.address}}</td>
+		</tr>
+		{% endfor %}
+</table>
+</body>
+</html>
