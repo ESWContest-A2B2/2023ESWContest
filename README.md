@@ -37,13 +37,19 @@ The hit-and-run prevention system developed so far has used methods such as drop
 
 📦2023ESWContest_free_1017 <br/>
  ┣ 📂ArduinoMega <br/>
- ┃ ┗ 📜test.ino <br/>
+ ┃ ┗ 📜impact.ino <br/>
  ┣ 📂ArduinoUno <br/>
  ┃ ┗ 📜rc.ino <br/>
  ┣ 📂RasberryPi <br/>
- ┃ ┗ 📜raspi01.py <br/>
+ ┃ ┗ 📜raspi.py <br/>
  ┣ 📂Web <br/>
- ┃ ┗ 📜test.ino <br/>
+ ┃ ┣ 📂static <br/>
+ ┃ ┃ ┗ 📂image <br/>
+ ┃ ┃ ┃ ┣ 🖼️a2b2.png <br/>
+ ┃ ┃ ┃ ┗ 🖼️favicon.ico <br/>
+ ┃ ┣ 📂templates <br/>
+ ┃ ┣ 📜Data.py <br/>
+ ┃ ┗ 📜web_finger.py <br/>
  ┣ 📂imgs <br/>
  ┃ ┣ 🖼️func_spec.png <br/>
  ┃ ┣ 🖼️hardware_diagram.png <br/>
