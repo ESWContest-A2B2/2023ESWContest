@@ -62,6 +62,10 @@ The hit-and-run prevention system developed so far has used methods such as drop
  ┃ ┗ 🖼️system_config.png <br/>
  ┗ 📜README.md
 
+## Caution
+
+The controller.aia file must be opened and executed ONLY using MIT App Inventor.
+
 ## Team Introduction
 
 We are a team of four students majoring in Electrical and Electronic Engineering at Konkuk University, Seoul, South Korea. We are interested in the collaborative relationship between embedded software and the industry.
